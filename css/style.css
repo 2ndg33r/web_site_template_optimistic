@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-size: 17px;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.container {
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    padding: 14px 16px;
+    overflow: hidden;
+}
+
+/* Header Area Style */
+header {
+    background-color: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: solid;
+    border-color: #000;
+    border-width: 3px;
+}
+
+/* Navigation Links Style  */
+header a {
+    text-decoration: none; /*remove underlines from links*/
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Set spacing around the entire list of navigation links */
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set style for each link */
+header li {
+    float: left; /*make horizontal*/
+    display: inline;
+    padding: 0 10px 0 10px; /*add spacing between links*/
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header .top-nav {
+    float: right;
+}
